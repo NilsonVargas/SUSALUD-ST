@@ -10,11 +10,11 @@
 </head>
 <body>
 	<div class="contenedor">
-		<div class="logo">	
-			<img src="imagenes/2.png" alt="">	
-		</div>	
+		<div class="logo">
+			<img src="images/2.png" alt="">	
+		</div>
 		<h1 class="titulo">Iniciar Sesión</h1>
-		
+
 		<hr class="border">
 
 		<form action="connect.php" method = "post" class="formulario" name="login">
@@ -26,7 +26,7 @@
 				<i class="icono izquierda fa fa-lock"></i><input class="password_btn" type="password" name="password" placeholder="Password">
 				<i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
 			</div>
-	
+
 		</form>
 
 

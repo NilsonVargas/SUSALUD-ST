@@ -32,6 +32,23 @@ a:hover {
 	margin: auto;
 }
 
+.caja {
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+	color: #fff;
+	display: flex;
+	flex-direction:row;
+
+}
+
+.contenido p {
+	color: #fff;
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 28px;
+	line-height: 70px;
+}
+
 .izquierda {
 	float: left;
 }
@@ -43,6 +60,18 @@ a:hover {
 .centro {
 	text-align: center;
 }
+
+
+.categorias p {
+	margin:100px;
+	color: #fff;
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+
+
 
 /* ---CABECERA ---*/
 
@@ -135,14 +164,6 @@ header .menu ul li a:hover {
 
 header .menu ul li a .icono {
 	margin-left: 15px;
-}
-
-
-.contenido p {
-	color: #fff;
-	font-family: "Oswald", Arial, Sans-serif;
-	font-size: 28px;
-	line-height: 70px;
 }
 
 

@@ -40,6 +40,10 @@ a:hover {
 	float: right;
 }
 
+.centro {
+	text-align: center;
+}
+
 /* ---CABECERA ---*/
 
 header {
@@ -60,7 +64,7 @@ header .logo a {
 	color: #fff;
 	font-family: "Oswald", Arial, Sans-serif;
 	font-size: 28px;
-	line-height: 85px;
+	line-height: 70px;
 }
 
 header .logo a:hover {
@@ -114,7 +118,7 @@ header .menu ul {
 
 header .menu ul li {
 	display: inline-block;
-	line-height: 70px;
+	line-height: 30px;
 }
 
 header .menu ul li a {
@@ -132,4 +136,13 @@ header .menu ul li a:hover {
 header .menu ul li a .icono {
 	margin-left: 15px;
 }
+
+
+.contenido p {
+	color: #fff;
+	font-family: "Oswald", Arial, Sans-serif;
+	font-size: 28px;
+	line-height: 70px;
+}
+
 

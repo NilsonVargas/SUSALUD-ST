@@ -17,9 +17,9 @@
 		
 		<hr class="border">
 
-		<form action="RESTful/connect.php" method = "post" class="formulario" name="login">
+		<form action="connect.php" method = "post" class="formulario" name="login">
 			<div class="form-group">
-				<i class="icono izquierda fa fa-user"></i><input class="usuario" type="text" name="usuario" placeholder="Usuario">
+				<i class="icono izquierda fa fa-user"></i><input class="usuario" type="text" name="user" placeholder="User">
 			</div>
 
 			<div class="form-group">

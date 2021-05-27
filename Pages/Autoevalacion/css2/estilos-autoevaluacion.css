@@ -23,6 +23,17 @@ a{
 
 }
 
+.contenedor1 p{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
 h2{
     display: block;
     margin-top: 20px;
@@ -35,7 +46,7 @@ h2{
 }
 
 .barra__buscador{
-    width: 100%;
+    width: 30%;
     margin-top: 50px;
     margin-bottom: 10px;
 }

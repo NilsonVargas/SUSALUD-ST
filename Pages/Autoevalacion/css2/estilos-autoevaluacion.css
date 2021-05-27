@@ -1,169 +1,291 @@
 * {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-	background: #1B1D35;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background: #1B1D35;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Oswald", Arial, Sans-serif;
-	font-weight: normal;
+a{
+    text-decoration: none;
+}
+.contenedor1{
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+
 }
 
-a {
-	text-decoration: none;
-	color:#BB1F35;
+h2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #555;
 }
 
-a:hover {
-	text-decoration: underline;
+.barra__buscador{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+form .input__text{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #848688;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    max-width: 30%;
+    margin-right: 10px;
+    outline: medium none;
+}
+
+
+form .input__text:focus{
+    border: 1px solid #1b743c;
+}
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+
+form .btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background: rgb(3, 113, 163);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+.btn__nuevo{
+    float: right;
+    background: #1b743c !important;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__primary{
+    background: rgb(3, 113, 163);
+}
+.btn__danger{
+    background: #8a0505 !important;
+}
+
+
+/* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table .head{
+    background: rgb(3, 113, 163);
+}
+table .head td{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+table tr td{
+    border:1px solid #ccc;
+    padding: 7px;
+    font-size: 14px;
+    color: #555;
+}
+
+.btn__update{
+    display: inline-block;
+    font-size: 14px;
+    background: #1b743c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__delete{
+    display: inline-block;
+    font-size: 14px;
+    background: #8a0505;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .contenedor {
-	max-width: 1000px;
-	width: 90%;
-	margin: auto;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
 }
 
 .caja {
-	max-width: 1000px;
-	width: 100%;
-	margin: auto;
-	color: #fff;
-	display: flex;
-	flex-direction:row;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction:row;
 
 }
 
 .contenido p {
-	color: #fff;
-	font-family: "Oswald", Arial, Sans-serif;
-	font-size: 28px;
-	line-height: 70px;
+    color: #fff;
+    font-family: "Oswald", Arial, Sans-serif;
+    font-size: 28px;
+    line-height: 70px;
 }
 
 .izquierda {
-	float: left;
+    float: left;
 }
 
 .derecha {
-	float: right;
+    float: right;
 }
 
 .centro {
-	text-align: center;
+    text-align: center;
 }
 
 
 .categorias p {
-	margin:100px;
-	color: #fff;
-	font-family: "Oswald", Arial, Sans-serif;
-	font-size: 20px;
-	line-height: 70px;
+    margin:100px;
+    color: #fff;
+    font-family: "Oswald", Arial, Sans-serif;
+    font-size: 20px;
+    line-height: 70px;
 }
 
 
-
-
-/* ---CABECERA ---*/
-
 header {
-	color:#fff;
-	margin-bottom: 30px;
-	background: #8f73ff;
+    color:#fff;
+    margin-bottom: 30px;
+    background: #8f73ff;
 }
 
 header .contenedor {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 header .logo {
-	max-width: 300px;
+    max-width: 300px;
 }
 
 header .logo a {
-	color: #fff;
-	font-family: "Oswald", Arial, Sans-serif;
-	font-size: 28px;
-	line-height: 70px;
+    color: #fff;
+    font-family: "Oswald", Arial, Sans-serif;
+    font-size: 28px;
+    line-height: 70px;
 }
 
 header .logo a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 header .buscar {
-	display: inline-block;
-	position: relative;
-	margin-right: 15px;
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
 }
 
 header .buscar input[type="text"]{
-	background: none;
-	border:1px solid rgba(255,255,255,.7);
-	color:rgba(255,255,255,.7);
-	height: 30px;
-	padding: 0 10px;
-	padding-right: 32px; 
+    background: none;
+    border:1px solid rgba(255,255,255,.7);
+    color:rgba(255,255,255,.7);
+    height: 30px;
+    padding: 0 10px;
+    padding-right: 32px; 
 }
 
 header .buscar input[type="text"]:hover,
 header .buscar input[type="text"]:focus {
-	color:#fff;
-	border:1px solid #fff;
+    color:#fff;
+    border:1px solid #fff;
 }
 
 header .buscar .icono {
-	color:rgba(255,255,255,.7);
-	position: absolute;
-	right: 0;
-	background: none;
-	border:none;
-	cursor:pointer;
-	padding: 6px;
-	font-size: 16px;
-	line-height: 16px;
+    color:rgba(255,255,255,.7);
+    position: absolute;
+    right: 0;
+    background: none;
+    border:none;
+    cursor:pointer;
+    padding: 6px;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 header .buscar .icono:hover {
-	color: #fff;
+    color: #fff;
 }
 
 header .menu {
-	display: inline-block;
+    display: inline-block;
 }
 
 header .menu ul {
-	list-style: none;
+    list-style: none;
 }
 
 header .menu ul li {
-	display: inline-block;
-	line-height: 30px;
+    display: inline-block;
+    line-height: 30px;
 }
 
 header .menu ul li a {
-	color: #fff;
-	display: block;
-	padding: 0px 20px;
-	font-weight: bold;
+    color: #fff;
+    display: block;
+    padding: 0px 20px;
+    font-weight: bold;
 }
 
 header .menu ul li a:hover {
-	background: #000;
-	text-decoration: none;
+    background: #000;
+    text-decoration: none;
 }
 
 header .menu ul li a .icono {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 

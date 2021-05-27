@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Sistema de Autoevaluacion</title>
+	<title>Inicio</title>
 	<link rel="stylesheet" href="css2/estilos-autoevaluacion.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<script src="https://kit.fontawesome.com/af0cccfe58.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
 	<header>
@@ -59,3 +59,33 @@
 
 
 	</content>
+
+	<div class="contenedor1">
+		<div class="barra__buscador">
+			<form action="" class="formulario" method="post">
+				<input type="text" name="buscar" placeholder="buscar nombre o apellidos" 
+				value="" class="input__text">
+				<input type="submit" class="btn" name="btn_buscar" value="Buscar">
+				<a href="insert.php" class="btn btn__nuevo">Nuevo</a>
+			</form>
+		</div>
+		<table>
+			<tr class="head">
+				<td>Fecha</td>
+				<td>Etapa</td>
+				<td>Avance</td>
+				<td>Estado</td>
+				<td colspan="2">Acción</td>
+			</tr>
+				<tr >
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><a href="#"  class="btn__update" >Editar</a></td>
+				</tr>
+
+		</table>
+	</div>
+</body>
+</html>

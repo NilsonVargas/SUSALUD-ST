@@ -17,7 +17,7 @@ a{
 }
 .contenedor1{
     width: 80%;
-    max-width: 1000px;
+    max-width: auto;
     margin: 30px auto;
     overflow: hidden;
 
